@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Acme Security</title>
+      <meta name="description" content="Security Business">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href='http://fonts.googleapis.com/css?family=Kameron:400,700' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" type="text/css" href="base.css">
+      <link rel="stylesheet" type="text/css" href="layout.css">
+      <link rel="stylesheet" type="text/css" href="modules.css">
+    </head>
+    <body>
+      <header>
+        <a class="logo" href="#"><img src="assets/logo2.png" alt="logo"></a>
+        <figure class="chatbox">
+          <a href=""><img src="assets/chatbox.png" alt="chat box"></a>
+          <figcaption><a href="#">Chat with Rep</a></figcaption>
+        </figure>
+        <h1>Report Vandalism</h1>
+      </header>
+      <section class="nav-container">
+	      <nav>
+	        <a href="">Home</a>
+	        <a href="">About</a>
+	        <a href="">Contact</a>
+	        <a href="">Report</a>
+	      </nav>
+      </section>
+      <main>
+        <h1>Explanation of Incident Process</h1>
+        <p>Irony DIY chillwave fingerstache Truffaut kitsch, bespoke viral Marfa. Brooklyn selfies selvage, stumptown PBR&B distillery shabby chic fanny pack mustache kogi. Pinterest selvage slow-carb, roof party umami Pitchfork Brooklyn. Kale chips leggings asymmetrical tattooed. Mustache aesthetic Tonx ennui beard cornhole semiotics. Photo booth banjo before they sold out, hashtag skateboard kale chips jean shorts Bushwick blog yr small batch. Salvia dreamcatcher asymmetrical small batch mixtape Intelligentsia.</p>
+        <form>
+          <fieldset>
+            <legend>
+            	<h2>Personal Details</h2>
+            </legend>
+            <label for="firstname">First name</label>
+            <input id="firstname" name="firstname" type="text" placeholder="First name" autofocus required>
+            <label for="lastname">Last name</label>
+            <input id="lastname" name="lastname" type="text" placeholder="Last Name" required>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="youremail@domain.com" required>
+            <label for="phone">Phone number</label>
+            <input id="phone" name="phone" type="tel" pattern="^[0-9]+[\- ]*[0-9]+$" placeholder="555-555-5555" required>
+          </fieldset>
+          <fieldset>
+            <legend>
+            	<h2>Incident Details</h2>
+            </legend>
+            <label for="address">Address</label>
+            <input id="address" name="address" type="text" pattern="[A-Za-z] {2}" placeholder="Your Address" required>
+            <label for="state">State</label>
+            <input id="state" name="state" type="text" placeholder="Your state" required>
+            <label for="zip-code">Zip Code</label>
+            <input id="zip-code" name="zip-code" type="text" placeholder="Zip Code" required>
+            <label for="description">Incident Description</label>
+            <textarea id="description" name="description" rows="5" placeholder="Describe the incident" required></textarea>
+            <label for="image-upload">Upload Photo</label>
+						<input id="image-upload" name="image-upload" type="file" accept="image/*">
+          </fieldset>
+          <fieldset>
+          	<input class="btn" type="submit" name="submit" value="File Report">
+          </fieldset>
+        </form>
+      </main>
+      <footer>
+      	<p><small>&copy; 2014 Acme Corp, LLC</small></p>
+      </footer>
+    </body>
+</html>
+
+

@@ -1,0 +1,36 @@
+/* NAVIGATION */
+
+.nav-container {
+	margin: 1em;
+}
+
+nav {
+	background-color: #969696;
+	width: 88%;
+	padding: .2em 0;
+}
+
+nav a {
+	display: block;
+	background-color: #f0f0f0;
+	line-height: 1em;
+	margin: .5em .5em;
+	padding: .2em;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* FORM */
+form {
+	width: 50%;
+	margin: auto;
+}
+
+label, input, textarea, legend {
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: .25em;
+	line-height: 2em;
+}

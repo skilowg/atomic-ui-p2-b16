@@ -1,0 +1,32 @@
+header, footer {
+	background-color: #a60005;
+}
+
+header h1, footer {
+	color: #fff;
+	text-align: center;
+	padding: 1.8em 0;
+	/*line-height: 3em;*/
+}
+
+.logo {
+	position: absolute;
+	left: 1em;
+	top: 1em;
+}
+
+.chatbox {
+	position: absolute;
+	right: 1em;
+	top: 1em;
+}
+
+.nav-container {
+	position: absolute;
+	left: 0;
+	width: 25%;
+}
+
+main {
+	margin: 0 25%;
+}

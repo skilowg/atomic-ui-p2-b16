@@ -1,0 +1,72 @@
+/* Eric Meyer Reset */
+@import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
+
+/* MAIN BODY */
+body {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 1.125em;
+	line-height: 1.3em;
+	color: #555;
+	background-color: #f0f0f0;
+}
+
+/* HEADERS */
+h1, h2, h3 {
+	font-family: 'Kameron', sans-serif;
+	font-weight: bold;
+	color: #333;
+}
+
+/* Is this the best way to separate header styles? */
+h1 {
+	font-size: 2.25em;
+	line-height: 1.2em;
+	color: #a60005;
+}
+
+h2 {
+	font-size: 1.875em;
+	line-height: 1em;
+	color: #0040ab;
+}
+
+h3 {
+	font-size: 1.6em;
+	line-height: 0.8em;
+	color: #444;
+}
+
+/* LINKS */
+a {
+	color: #0040ab;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #a60005;
+}
+
+/* INPUTS */
+input, textarea {
+	border: none;
+	line-height: 1.5em;
+	padding: 5px;
+}
+
+input:focus, textarea:focus {
+	outline: solid 2px #0040ab;
+	/*outline: none;*/
+}
+
+/* BUTTONS */
+.btn {
+	font-family:'Kameron', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	background-color: #0040ab;
+	border: none;
+}
+
+.btn:active {
+	opacity: 0.8;
+}
