@@ -1,0 +1,56 @@
+/* MAIN BODY */
+body {
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size: 1.125em;
+	line-height: 1.3em;
+	color: #555;
+	background-color: #f0f0f0;
+  width: 1200px; /*Set a fixed width for different browser sizes*/
+  margin: 0 auto;
+  position: relative;
+}
+
+/* HEADERS */
+h1, h2, h3, .btn {
+	font-family: 'Kameron', sans-serif;
+	font-weight: bold; /*Removed redundant color*/
+}
+
+/* Is this the best way to separate header styles? */
+h1 {
+	font-size: 2.25em;
+	line-height: 1.2em;
+	color: #a60005;
+}
+
+h2 {
+	font-size: 1.875em;
+	line-height: 1em;
+	color: #0040ab;
+}
+
+h3 {
+	font-size: 1.6em;
+	line-height: 0.8em;
+	color: #444;
+}
+
+/* LINKS */
+a {
+	color: #0040ab;
+	text-decoration: none; /*Add text decoration none*/
+}
+
+/* INPUTS */
+input, textarea {
+	border: none;
+	line-height: 1.5em;
+	padding: 5px;
+}
+
+/* BUTTONS */
+.btn {
+	color: #fff; /*Remove redundant font-weight & font-family*/
+	background-color: #0040ab;
+	border: none;
+}
