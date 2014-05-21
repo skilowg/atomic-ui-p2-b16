@@ -42,20 +42,11 @@ a {
 	text-decoration: underline;
 }
 
-a:hover {
-	color: #a60005;
-}
-
 /* INPUTS */
 input, textarea {
 	border: none;
 	line-height: 1.5em;
 	padding: 5px;
-}
-
-input:focus, textarea:focus {
-	outline: solid 2px #0040ab;
-	/*outline: none;*/
 }
 
 /* BUTTONS */
@@ -65,8 +56,4 @@ input:focus, textarea:focus {
 	color: #fff;
 	background-color: #0040ab;
 	border: none;
-}
-
-.btn:active {
-	opacity: 0.8;
 }
