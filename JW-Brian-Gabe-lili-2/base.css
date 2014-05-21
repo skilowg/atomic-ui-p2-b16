@@ -10,7 +10,7 @@ body {
 /* HEADERS */
 h1, h2, h3 {
 	font-family: 'Kameron', sans-serif;
-	font-weight: bold;
+	font-weight: bold; /*Removed redundant color*/
 }
 
 /* Is this the best way to separate header styles? */
