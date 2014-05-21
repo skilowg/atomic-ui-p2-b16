@@ -10,7 +10,6 @@ header h1, footer {
 	/*line-height: 3em;*/
 }
 
-<<<<<<< HEAD
 .absolute {
 	position: absolute; /*Concatenate redundant styling for .logo, .chatbox, .nav-container*/
 }
@@ -20,10 +19,6 @@ header h1, footer {
 }
 
 .logo {
-=======
-.logo{
-	position: absolute;
->>>>>>> f31ae472d93f75c4c37a81d9212df79b9ca246e7
 	left: 1em;
 }
 
@@ -37,6 +32,6 @@ header h1, footer {
 }
 
 main {
-	margin: 20px 10%% 20px 25%;
+	margin: 20px 10% 20px 25%;
   position: relative;
 }
