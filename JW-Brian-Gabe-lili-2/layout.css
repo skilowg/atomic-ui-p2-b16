@@ -1,5 +1,6 @@
 header, footer {
 	background-color: #a60005;
+  position: relative;
 }
 
 header h1, footer {
@@ -9,7 +10,7 @@ header h1, footer {
 	/*line-height: 3em;*/
 }
 
-.logo {
+.logo{
 	position: absolute;
 	left: 1em;
 	top: 1em;
@@ -24,9 +25,10 @@ header h1, footer {
 .nav-container {
 	position: absolute;
 	left: 0;
-	width: 25%;
+	width: 19%;
 }
 
 main {
-	margin: 0 25%;
+	margin: 20px 10%% 20px 25%;
+  position: relative;
 }
