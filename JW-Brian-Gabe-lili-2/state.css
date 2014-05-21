@@ -1,0 +1,14 @@
+
+a:hover {
+  color: #F0F0F0;
+}
+
+input:focus, textarea:focus {
+  outline: solid 2px #0040ab;
+  /*outline: none;*/
+}
+
+.btn:active {
+  opacity: 0.8;
+}
+

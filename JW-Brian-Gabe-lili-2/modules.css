@@ -25,12 +25,30 @@ nav a {
 form {
 	width: 50%;
 	margin: auto;
+	border: 0;
 }
 
 label, input, textarea, legend {
 	display: block;
 	width: 100%;
-	text-align: center;
-	padding: .25em;
+	text-align: center; /*Removed unecessary padding*/
 	line-height: 2em;
+}
+
+/* FIGURE */
+
+/*Created figure module*/
+
+figure {
+  background: #979797;
+}
+
+figcaption {
+	color: white;
+  text-align: center;
+  padding: .5em .5em 1em .5em;
+}
+
+figure a {
+	color: white;
 }
