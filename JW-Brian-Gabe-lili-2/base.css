@@ -5,6 +5,9 @@ body {
 	line-height: 1.3em;
 	color: #555;
 	background-color: #f0f0f0;
+  width: 1200px; /*Set a fixed width for different browser sizes*/
+  margin: 0 auto;
+  position: relative;
 }
 
 /* HEADERS */
