@@ -9,20 +9,23 @@ header h1, footer {
 	/*line-height: 3em;*/
 }
 
+.absolute {
+	position: absolute; /*Concatenate redundant styling for .logo, .chatbox, .nav-container*/
+}
+
+.logo, .chatbox {
+	top: 1em; /*Concatenate redundant styling for .logo, .chatbox*/
+}
+
 .logo {
-	position: absolute;
 	left: 1em;
-	top: 1em;
 }
 
 .chatbox {
-	position: absolute;
 	right: 1em;
-	top: 1em;
 }
 
 .nav-container {
-	position: absolute;
 	left: 0;
 	width: 25%;
 }

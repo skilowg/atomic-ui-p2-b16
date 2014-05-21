@@ -1,6 +1,6 @@
 
 a:hover {
-  color: #F0F0F0;
+  color: #a60005;
 }
 
 input:focus, textarea:focus {
@@ -12,3 +12,6 @@ input:focus, textarea:focus {
   opacity: 0.8;
 }
 
+figure:hover {
+  background-color: #0040ab;
+}
