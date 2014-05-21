@@ -34,3 +34,19 @@ label, input, textarea, legend {
 	padding: .25em;
 	line-height: 2em;
 }
+
+/* FIGURE */
+
+figure {
+  background: #979797;
+}
+
+figcaption {
+	color: white;
+  text-align: center;
+  padding: .5em .5em 1em .5em;
+}
+
+figure a {
+	color: white;
+}

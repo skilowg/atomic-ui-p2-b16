@@ -11,7 +11,6 @@ body {
 h1, h2, h3 {
 	font-family: 'Kameron', sans-serif;
 	font-weight: bold;
-	color: #333;
 }
 
 /* Is this the best way to separate header styles? */
